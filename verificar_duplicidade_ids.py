@@ -161,8 +161,8 @@ def encontrar_ids_repetidos(df, subset, status_coluna='STATUS', filtro_status='C
 def main():
     colunas_float_int = ['SBJNUM', 'ID']
     valores_upper = ['NOME']
-    valores_categoricos = ['SUPERVISORA']
-    subset_1 = ['SBJNUM', 'ID', 'NOME', 'STATUS', 'SUPERVISORA']
+    valores_categoricos = ['SUPERVISOR']
+    subset_1 = ['SBJNUM', 'ID', 'NOME', 'STATUS', 'SUPERVISOR']
 
     arquivo = selecionar_arquivo()
     if not arquivo:
